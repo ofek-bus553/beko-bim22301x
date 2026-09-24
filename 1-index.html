@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang='he' dir='rtl'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, viewport-fit=cover'>
+<meta name='theme-color' content='#8a3b12'>
+<title>תנור Beko BIM22301X - המדריך המעשי</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#faf6f0; --card:#ffffff; --ink:#2b2018; --muted:#7a6a5c;
+  --brand:#8a3b12; --brand2:#c2571b; --brandbg:#fdeee0;
+  --manual:#1d6b3c; --manualbg:#e6f4ec; --tipbg:#fff8e6; --tipbr:#e8d48a;
+  --line:#ece1d4; --shadow:0 1px 3px rgba(60,35,15,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Heebo',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55;padding-bottom:76px;-webkit-text-size-adjust:100%}
+header{background:linear-gradient(160deg,#6d2f0e,#8a3b12 55%,#a84a18);color:#fff;padding:26px 18px 22px;text-align:center}
+header h1{font-size:26px;font-weight:900;line-height:1.25}
+header .model{display:inline-block;background:rgba(255,255,255,.16);border-radius:999px;padding:3px 14px;font-weight:700;font-size:15px;margin-top:8px}
+header .sub{font-size:14px;opacity:.92;margin-top:10px;max-width:520px;margin-inline:auto}
+.specs{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:14px}
+.spec{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);border-radius:10px;padding:5px 11px;font-size:13px;font-weight:500}
+.wrap{max-width:720px;margin:0 auto;padding:0 14px}
+section{margin-top:26px}
+h2{font-size:20px;font-weight:800;color:var(--brand);margin-bottom:4px}
+.sec-note{font-size:13px;color:var(--muted);margin-bottom:12px}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:1px 7px;vertical-align:middle}
+.b-man{background:var(--manualbg);color:var(--manual)}
+.b-gen{background:#fdf0d5;color:#8a6d1a}
+.mode{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.mode .head{display:flex;align-items:center;gap:12px}
+.mode .ic{flex:0 0 46px;width:46px;height:46px;border-radius:12px;background:var(--brandbg);display:flex;align-items:center;justify-content:center}
+.mode h3{font-size:17px;font-weight:800}
+.mode .en{font-size:12px;color:var(--muted);font-weight:500;direction:ltr;text-align:right}
+.mode p{font-size:14px;margin-top:8px}
+.mode p b{color:var(--brand)}
+.mode .for{background:var(--brandbg);border-radius:10px;padding:8px 12px;font-size:14px;margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.chip{font-size:12px;font-weight:700;background:#f2e7db;color:#6b4a2e;border-radius:999px;padding:2px 10px}
+.tbl-card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;margin-bottom:14px;box-shadow:var(--shadow)}
+.tbl-card h4{background:var(--brandbg);color:var(--brand);font-size:15px;font-weight:800;padding:9px 14px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 8px;text-align:right;border-top:1px solid var(--line);vertical-align:top}
+thead th{background:#fbf3ea;border-top:none;font-size:12px;color:#6b4a2e;font-weight:700}
+td.food{font-weight:700;min-width:86px}
+.mc{display:inline-block;font-size:11px;font-weight:700;border-radius:6px;padding:1px 7px;white-space:nowrap}
+.mc-stat{background:#e8ecf1;color:#39506b}
+.mc-fan{background:#e0f0fb;color:#1d5c8a}
+.mc-3d{background:#efe3fa;color:#6b3fa0}
+.mc-grill{background:#fde3e3;color:#a12626}
+.tbl-note{font-size:12px;color:var(--muted);padding:8px 14px;border-top:1px dashed var(--line)}
+.tip{background:var(--tipbg);border:1px solid var(--tipbr);border-radius:12px;padding:11px 14px;margin-bottom:10px;font-size:14px}
+.tip b{color:#7a5c00}
+.how{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 16px;margin-bottom:12px;box-shadow:var(--shadow)}
+.how h4{font-size:15px;font-weight:800;color:var(--brand);margin-bottom:5px}
+.how ol{margin-right:20px;font-size:14px;display:grid;gap:4px}
+.how p{font-size:14px}
+.warn{background:#fdecec;border:1px solid #f3c1c1;color:#8a1f1f;border-radius:12px;padding:10px 14px;font-size:13.5px;margin-bottom:12px;font-weight:500}
+.qa-box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--shadow)}
+.qa-row{display:flex;gap:8px}
+#q{flex:1;font-family:inherit;font-size:16px;padding:11px 14px;border:2px solid var(--line);border-radius:12px;background:#fff;color:var(--ink)}
+#q:focus{outline:none;border-color:var(--brand2)}
+#qbtn{font-family:inherit;font-size:15px;font-weight:800;background:var(--brand);color:#fff;border:none;border-radius:12px;padding:0 18px;cursor:pointer;min-height:46px}
+#qbtn:active{background:var(--brand2)}
+.sugg{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.sugg button{font-family:inherit;font-size:12.5px;background:#f2e7db;color:#6b4a2e;border:none;border-radius:999px;padding:5px 12px;cursor:pointer}
+.ans{background:#fff;border:1px solid var(--line);border-right:4px solid var(--brand2);border-radius:12px;padding:12px 14px;margin-top:10px}
+.ans .qm{font-size:12px;color:var(--muted);font-weight:700;margin-bottom:3px}
+.ans p{font-size:14.5px}
+.esc{background:var(--brandbg);border:1px dashed var(--brand2);border-radius:12px;padding:13px 14px;margin-top:10px;font-size:14px}
+.esc a{display:inline-block;margin-top:8px;background:#25d366;color:#0b3d20;font-weight:800;text-decoration:none;border-radius:999px;padding:8px 18px;font-size:14px}
+footer{margin-top:30px;padding:18px 14px 26px;font-size:12.5px;color:var(--muted);border-top:1px solid var(--line);text-align:center}
+footer b{color:#5d4a3a}
+nav#bnav{position:fixed;bottom:0;right:0;left:0;height:60px;background:#fff;border-top:1px solid var(--line);display:flex;z-index:50;box-shadow:0 -2px 8px rgba(60,35,15,.07)}
+nav#bnav a{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;text-decoration:none;color:var(--muted);font-size:11.5px;font-weight:700}
+nav#bnav a span{font-size:18px;line-height:1}
+nav#bnav a.on{color:var(--brand)}
+@media (max-width:400px){th,td{padding:7px 5px;font-size:12.5px}td.food{min-width:74px}}
+</style>
+</head>
+<body>
+<header>
+  <h1>המדריך המעשי לתנור שלכם</h1>
+  <div class="model">Beko BIM22301X</div>
+  <p class="sub">כל התוכניות, טבלאות הבישול והגריל והטיפים - מבוסס על המדריך הרשמי של Beko, בשפה פשוטה. מה שלא מופיע במדריך מסומן כהמלצה כללית.</p>
+  <div class="specs">
+    <div class="spec">🔥 8 תוכניות</div>
+    <div class="spec">🫕 71 ליטר</div>
+    <div class="spec">⚡ דירוג אנרגטי A</div>
+    <div class="spec">🕐 שעון דיגיטלי עם טיימר</div>
+    <div class="spec">💨 ניקוי קל בקיטור</div>
+    <div class="spec">🔒 נעילת ילדים</div>
+  </div>
+</header>
+<div class="wrap">
+
+<section id="modes">
+  <h2>🎛️ תוכניות התנור</h2>
+  <p class="sec-note">מה שמופיע על ידית התוכניות, ומה כל תוכנית עושה בפועל. <span class="badge b-man">מהמדריך</span></p>
+
+  <div class="mode">
+    <div class="head"><div class="ic">▭</div><div><h3>חימום עליון ותחתון</h3><div class="en">Top and bottom heating</div></div></div>
+    <p>החום מגיע בו-זמנית מלמעלה ומלמטה, בלי מאוורר. זו התוכנית "הקלאסית" לאפייה.</p>
+    <div class="for">👍 מתאים ל: עוגות, מאפים, קדירות ותבשילים בתבנית.</div>
+    <div class="chips"><span class="chip">תבנית אחת בלבד</span><span class="chip">חימום מוקדם מומלץ</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">▂</div><div><h3>חימום תחתון בלבד</h3><div class="en">Bottom heating</div></div></div>
+    <p>רק הנגד התחתון פועל. מחמם את התחתית של המאכל בלי לייבש את החלק העליון.</p>
+    <div class="for">👍 מתאים ל: פיצה, ולהשחמת תחתית של מאכל בסוף האפייה. משמש גם לניקוי בקיטור.</div>
+    <div class="chips"><span class="chip">תבנית אחת</span><span class="chip">ניקוי קיטור</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">🌪️</div><div><h3>חימום עליון ותחתון + טורבו</h3><div class="en">Fan supported bottom/top heating</div></div></div>
+    <p>חימום עליון ותחתון ובנוסף מאוורר בדופן האחורית שמפזר את החום במהירות ובשוויוניות.</p>
+    <div class="for">👍 מתאים ל: אפייה שווה של עוגות ומאפים כשהחלק העליון והתחתון צריכים חום חזק.</div>
+    <div class="chips"><span class="chip">תבנית אחת בלבד</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">❄️</div><div><h3>מאוורר בלבד (הפשרה)</h3><div class="en">Operating with fan</div></div></div>
+    <p>התנור לא מחמם בכלל - רק המאוורר עובד. זרימת האוויר מפשירה לאט בטמפרטורת החדר.</p>
+    <div class="for">👍 מתאים ל: הפשרת מזון קפוא גרגירי (ירקות קפואים, בשר קצוץ) ולקירור מאכלים אחרי בישול.</div>
+    <div class="chips"><span class="chip">בלי חום</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">🌀</div><div><h3>חימום טורבו</h3><div class="en">Fan heating</div></div></div>
+    <p>נגד חימום אחורי + מאוורר מפזרים אוויר חם בכל התנור. ברוב המקרים <b>לא נדרש חימום מוקדם</b>.</p>
+    <div class="for">👍 מתאים ל: בישול בכמה רמות במקביל ולכמה תבניות ביחד. משמש גם לניקוי בקיטור.</div>
+    <div class="chips"><span class="chip">כמה תבניות</span><span class="chip">בלי חימום מוקדם</span><span class="chip">ניקוי קיטור</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">🎯</div><div><h3>תלת-ממד (3D)</h3><div class="en">"3D" function</div></div></div>
+    <p>חימום עליון + תחתון + נגד אחורי עם מאוורר - כל הנגדים ביחד. חום אחיד ומהיר מכל הכיוונים.</p>
+    <div class="for">👍 מתאים ל: צלייה שווה ומהירה של עוף, הודו ודגים שלמים.</div>
+    <div class="chips"><span class="chip">תבנית אחת בלבד</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">🔥</div><div><h3>גריל מלא</h3><div class="en">Full grill</div></div></div>
+    <p>הגריל הגדול בתקרה פועל במלוא הכוח. חום ישיר וחזק מלמעלה.</p>
+    <div class="for">👍 מתאים ל: גריל של כמות גדולה של בשר - מנות בינוניות וגדולות. מכוונים למקסימום ומהפכים באמצע.</div>
+    <div class="chips"><span class="chip">דלת סגורה</span><span class="chip">טמפרטורה מקסימלית</span></div>
+  </div>
+
+  <div class="mode">
+    <div class="head"><div class="ic">🍢</div><div><h3>גריל + טורבו</h3><div class="en">Grill+Fan</div></div></div>
+    <p>גריל בשילוב מאוורר - אפקט הגריל עדין יותר מגריל מלא, והחום מתפזר שווה יותר.</p>
+    <div class="for">👍 מתאים ל: מנות קטנות ובינוניות על הרשת. מכוונים טמפרטורה ומהפכים באמצע הצלייה.</div>
+    <div class="chips"><span class="chip">דלת סגורה</span></div>
+  </div>
+</section>
+
+<section id="tables">
+  <h2>🍰 טבלת בישול ואפייה</h2>
+  <p class="sec-note">שלוש הרשתות מתוך המדריך הרשמי. <b>רמה 1 היא הרמה התחתונה ביותר.</b> מומלץ חימום מוקדם לכל המאכלים בטבלה זו. <span class="badge b-man">מהמדריך</span></p>
+
+  <div class="tbl-card">
+    <h4>עוגות ועוגיות</h4>
+    <table>
+      <thead><tr><th>מאכל</th><th>תוכנית</th><th>רמה</th><th>חום</th><th>זמן</th></tr></thead>
+      <tbody>
+        <tr><td class="food">עוגה בתבנית</td><td><span class="mc mc-stat">סטטי</span></td><td>3</td><td>160°</td><td>25–30 דק׳</td></tr>
+        <tr><td class="food">עוגה בתבנית על הרשת</td><td><span class="mc mc-fan">טורבו</span></td><td>2</td><td>160°</td><td>40–50 דק׳</td></tr>
+        <tr><td class="food">עוגיות קטנות</td><td><span class="mc mc-stat">סטטי</span></td><td>3</td><td>160°</td><td>25–35 דק׳</td></tr>
+        <tr><td class="food">עוגיות קטנות, 2 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3</td><td>150°</td><td>35–50 דק׳</td></tr>
+        <tr><td class="food">עוגיות קטנות, 3 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3+5</td><td>150°</td><td>35–50 דק׳</td></tr>
+        <tr><td class="food">עוגת ספוג (תבנית 26 ס״מ)</td><td><span class="mc mc-stat">סטטי</span></td><td>3</td><td>160°</td><td>25–35 דק׳</td></tr>
+        <tr><td class="food">עוגת ספוג בטורבו</td><td><span class="mc mc-fan">טורבו</span></td><td>2</td><td>150°</td><td>30–40 דק׳</td></tr>
+        <tr><td class="food">עוגיות</td><td><span class="mc mc-stat">סטטי</span></td><td>3</td><td>160°</td><td>25–30 דק׳</td></tr>
+        <tr><td class="food">עוגיות, 2 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3</td><td>180°</td><td>30–40 דק׳</td></tr>
+        <tr><td class="food">עוגיות, 3 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3+5</td><td>160°</td><td>35–45 דק׳</td></tr>
+        <tr><td class="food">פאי תפוחים (תבנית 20 ס״מ)</td><td><span class="mc mc-stat">סטטי</span></td><td>2</td><td>180°</td><td>50–60 דק׳</td></tr>
+        <tr><td class="food">פאי תפוחים בטורבו</td><td><span class="mc mc-fan">טורבו</span></td><td>2</td><td>170°</td><td>50–60 דק׳</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tbl-card">
+    <h4>בצקים ומאפים</h4>
+    <table>
+      <thead><tr><th>מאכל</th><th>תוכנית</th><th>רמה</th><th>חום</th><th>זמן</th></tr></thead>
+      <tbody>
+        <tr><td class="food">בצק עלים / בורקס</td><td><span class="mc mc-stat">סטטי</span></td><td>2</td><td>200°</td><td>30–40 דק׳</td></tr>
+        <tr><td class="food">בצק עלים, 2 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+5</td><td>200°</td><td>45–55 דק׳</td></tr>
+        <tr><td class="food">בצק עלים, 3 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3+5</td><td>200°</td><td>55–65 דק׳</td></tr>
+        <tr><td class="food">מאפה עשיר (שמרים)</td><td><span class="mc mc-stat">סטטי</span></td><td>2</td><td>200°</td><td>25–35 דק׳</td></tr>
+        <tr><td class="food">מאפה עשיר, 2 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3</td><td>200°</td><td>35–45 דק׳</td></tr>
+        <tr><td class="food">מאפה עשיר, 3 רמות</td><td><span class="mc mc-fan">טורבו</span></td><td>1+3+5</td><td>190°</td><td>45–55 דק׳</td></tr>
+        <tr><td class="food">לחם</td><td><span class="mc mc-stat">סטטי</span></td><td>2</td><td>200°</td><td>35–45 דק׳</td></tr>
+        <tr><td class="food">לזניה</td><td><span class="mc mc-stat">סטטי</span></td><td>2–3</td><td>200°</td><td>30–40 דק׳</td></tr>
+        <tr><td class="food">פיצה</td><td><span class="mc mc-stat">סטטי</span></td><td>2</td><td>200–220°</td><td>15–20 דק׳</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tbl-card">
+    <h4>בשר, עוף ודגים</h4>
+    <table>
+      <thead><tr><th>מאכל</th><th>תוכנית</th><th>רמה</th><th>חום</th><th>זמן</th></tr></thead>
+      <tbody>
+        <tr><td class="food">צלי בקר שלם</td><td><span class="mc mc-fan">טורבו</span></td><td>3</td><td>רבע שעה 250°/מקס, אז 180–190°</td><td>100–120 דק׳</td></tr>
+        <tr><td class="food">כתף כבש בתבנית</td><td><span class="mc mc-fan">טורבו</span></td><td>3</td><td>25 דק׳ 250°/מקס, אז 190°</td><td>70–90 דק׳</td></tr>
+        <tr><td class="food">עוף שלם (1.8–2 ק״ג)</td><td><span class="mc mc-fan">טורבו</span> <span class="mc mc-3d">3D</span></td><td>2</td><td>רבע שעה 250°/מקס, אז 180–190°</td><td>60–80 דק׳</td></tr>
+        <tr><td class="food">הודו שלם (5.5 ק״ג)</td><td><span class="mc mc-fan">טורבו</span> <span class="mc mc-3d">3D</span></td><td>1</td><td>25 דק׳ 250°/מקס, אז 180–190°</td><td>150–210 דק׳</td></tr>
+        <tr><td class="food">דג שלם</td><td><span class="mc mc-fan">טורבו</span> <span class="mc mc-3d">3D</span></td><td>3</td><td>200°</td><td>20–30 דק׳</td></tr>
+      </tbody>
+    </table>
+    <div class="tbl-note">הזמנים הם כיוון כללי ומשתנים לפי טמפרטורת המאכל, העובי וההעדפה שלכם. לצלי בקר ולעוף/הודו: מתחילים בחום מקסימלי לצריבה ואז מנמיכים.</div>
+  </div>
+
+  <h2 style="margin-top:24px">🔥 טבלת גריל</h2>
+  <p class="sec-note">על הרשת (wire grill). <b>הדלת סגורה בזמן גריל</b>, חימום מוקדם 5 דקות, והופכים אחרי 2/3 מהזמן. <span class="badge b-man">מהמדריך</span></p>
+  <div class="tbl-card">
+    <table>
+      <thead><tr><th>מאכל</th><th>רמה</th><th>חום</th><th>זמן</th></tr></thead>
+      <tbody>
+        <tr><td class="food">דג</td><td>4–5</td><td>250°/מקס</td><td>20–25 דק׳</td></tr>
+        <tr><td class="food">פרסות עוף</td><td>4–5</td><td>250°/מקס</td><td>25–35 דק׳</td></tr>
+        <tr><td class="food">קציצות כבש</td><td>4–5</td><td>250°/מקס</td><td>20–25 דק׳</td></tr>
+        <tr><td class="food">רוסט ביף</td><td>4–5</td><td>250°/מקס</td><td>25–30 דק׳</td></tr>
+        <tr><td class="food">קציצות עגל</td><td>4–5</td><td>250°/מקס</td><td>25–30 דק׳</td></tr>
+        <tr><td class="food">טוסט</td><td>4</td><td>250°/מקס</td><td>1–3 דק׳</td></tr>
+        <tr><td class="food">קציצות בקר (12 יח׳)</td><td>4</td><td>250°/מקס</td><td>25–35 דק׳</td></tr>
+      </tbody>
+    </table>
+    <div class="tbl-note">תלוי בעובי. בגריל שאין בו כיוון טמפרטורה - הגריל עובד במקסימום.</div>
+  </div>
+  <div class="warn">⚠️ מאכלים שאינם מתאימים לגריל עלולים להצית אש. אל תציבו אוכל רחוק מדי לגב התנור - זה האזור החם ביותר ואוכל שומני עלול להתלקח. בגריל על הרשת: שימו מתחת תבנית עם מעט מים לאיסוף שומן.</div>
+</section>
+
+<section id="tips">
+  <h2>💡 טיפים מהמדריך</h2>
+  <p class="sec-note">פתרון בעיות נפוצות בדיוק כמו שמופיע במדריך. <span class="badge b-man">מהמדריך</span></p>
+  <div class="tip"><b>העוגה יבשה?</b> העלו 10° וקצרו את זמן האפייה.</div>
+  <div class="tip"><b>העוגה רטובה מדי?</b> פחות נוזלים, או הורידו 10°.</div>
+  <div class="tip"><b>העוגה כהה מדי מלמעלה?</b> רמה נמוכה יותר, טמפרטורה נמוכה יותר, זמן ארוך יותר.</div>
+  <div class="tip"><b>אפויה מבפנים אבל דביקה מבחוץ?</b> פחות נוזלים, פחות חום, יותר זמן.</div>
+  <div class="tip"><b>בצק העלים יבש?</b> העלו 10° וקצרו זמן. סחחו שכבות בצק בתערובת חלב, שמן, ביצה ויוגורט.</div>
+  <div class="tip"><b>הבורקס משחים מלמעלה אבל חי מתחת?</b> יותר מדי רוטב בתחתית - פזרו את התערובת שווה בין השכבות, ובפעם הבאה רמה נמוכה יותר.</div>
+  <div class="tip"><b>ירקות מתייבשים?</b> בישלו בסיר עם מכסה במקום תבנית - כלי סגור שומר על הנוזלים. ירקות שלא מתבשלים: להרתיח קודם.</div>
+  <div class="tip"><b>צלי בשר:</b> תבלו מראש במיץ לימון ופלפל שחור. בשר עם עצם = עוד 15–30 דקות. כל ס״מ עובי ≈ 4–5 דקות צלייה. אחרי הבישול - 10 דקות מנוחה בתנור כדי שהמיצים יתפזרו.</div>
+  <div class="tip"><b>דגים:</b> על הרשת או בתבנית חסינת חום ברמה האמצעית או התחתונה.</div>
+  <div class="tip"><b>חיסכון בחשמל:</b> כלי אפייה כהים/אמייל מוליך חום טוב יותר · אל תפתחו את הדלת בזמן בישול · בישלו כמה מנות ברצף כשהתנור חם · אפשר לכבות כמה דקות לפני הסוף ולנצל את החום הצבור (מצב Eco) · הפשירו מנות קפואות לפני הבישול.</div>
+</section>
+
+<section id="timer">
+  <h2>🕐 שעון, טיימר וניקוי</h2>
+  <p class="sec-note">הפעלת השעון הדיגיטלי והניקוי הקל. <span class="badge b-man">מהמדריך</span></p>
+
+  <div class="how">
+    <h4>לקבוע זמן בישול (התנור נכבה לבד)</h4>
+    <ol>
+      <li>סובבים את ידית התוכניות לתוכנית הרצויה.</li>
+      <li>לוחצים על כפתור התוכנית (P) עד שמופיע סמל זמן הבישול ›|.</li>
+      <li>מכוונים את הזמן עם מקשי + ו־−.</li>
+      <li>מכניסים את התבנית ומכוונים טמפרטורה - הבישול מתחיל.</li>
+    </ol>
+    <p>בסוף יופיע "End" ותישמע אזעקה ל-2 דקות (לחיצה על כל מקש משתיקה). <b>שימו לב: אחרי ההשתקה לסובב את שתי הידיות ל-0, אחרת התנור חוזר לפעול.</b></p>
+  </div>
+
+  <div class="how">
+    <h4>לתזמן סיום בישול לשעה מאוחרת</h4>
+    <p>קודם קובעים זמן בישול כרגיל, ואז לוחצים שוב על P עד סמל ›| של סוף הבישול ומכוונים שעת סיום. התנור מחשב לבד מתי להתחיל. מקסימום: 5 שעות ו-59 דקות קדימה.</p>
+  </div>
+
+  <div class="how">
+    <h4>מצב Eco (חיסכון)</h4>
+    <p>בבישול עם זמן מוגדר: לוחצים על P עד סמל eco ומפעילים עם +. התנור מכבה את הנגדים לפני סוף הזמן ומסיים בישול עם החום הצבור.</p>
+  </div>
+
+  <div class="how">
+    <h4>נעילת ילדים (נעילת מקשים)</h4>
+    <p>לוחצים על P עד סמל המנעול, ואז + להפעלה / − לביטול. כשהנעילה פעילה מקשי השעון לא עובדים. <b>הנעילה נשמרת גם אחרי הפסקת חשמל</b> (בשונה מתוכנית בישול, שמתבטלת בהפסקה).</p>
+  </div>
+
+  <div class="how">
+    <h4>שעון מעורר / טיימר עצמאי</h4>
+    <p>לחיצה על P עד סמל הפעמון וכיוון עם +/− (עד 23:59). משמש תזכורת בלבד - למשל להפוך בשר באמצע - ולא משפיע על התנור.</p>
+  </div>
+
+  <div class="how">
+    <h4>ניקוי קל בקיטור (Easy Steam)</h4>
+    <ol>
+      <li>מוציאים את כל האביזרים מהתנור.</li>
+      <li>יוצקים 500 מ״ל מים לתבנית ומניחים ברמה 2.</li>
+      <li>מפעילים תוכנית חימום תחתון או חימום טורבו על 100° ל-25 דקות.</li>
+      <li>פותחים את הדלת (זהירות, עלול לטפוף עיבוי) ומנגבים עם ספוג לח.</li>
+      <li>לכלוך עקשן: מים חמים עם מעט נוזל כלים וספוג רך.</li>
+    </ol>
+  </div>
+
+  <div class="warn">⚠️ לניקוי: בלי אבקות קרצוף, בלי מגרדות מתכת על הזכוכית, בלי מנקי קיטור, ובלי חומרים עם חומצה או כלור על נירוסטה. מנתקים מהחשמל ומחכים שהתנור יתקרר לפני ניקוי.</div>
+</section>
+
+<section id="qa">
+  <h2>❓ שאלו על התנור</h2>
+  <p class="sec-note">חיפוש חכם בתוך תוכן המדריך הרשמי - הכל מחושב במכשיר שלכם, בלי שרת ובלי AI. לא מצאתם? יש מענה אנושי.</p>
+  <div class="qa-box">
+    <div class="qa-row">
+      <input id="q" type="search" placeholder="למשל: באיזו תוכנית אופים עוגה?" autocomplete="off">
+      <button id="qbtn">חיפוש</button>
+    </div>
+    <div class="sugg" id="sugg"></div>
+    <div id="qres"></div>
+  </div>
+</section>
+
+<footer>
+  <b>מקורות:</b> מדריך המשתמש הרשמי של Beko BIM22301X (אנגלית, 96 עמ׳) וגיליון המפרט הרגולטורי של האיחוד האירופי לדגם. נתוני צריכה: 0.95 קוט״ש למחזור רגיל, 0.81 קוט״ש במצב טורבו.<br>
+  סימון: <span class="badge b-man">מהמדריך</span> = מקור רשמי · <span class="badge b-gen">המלצה כללית</span> = לא מהמדריך · נבנה ב-24.9.2026
+</footer>
+</div>
+
+<nav id="bnav">
+  <a href="#modes" class="on"><span>🎛️</span>תוכניות</a>
+  <a href="#tables"><span>🍰</span>טבלאות</a>
+  <a href="#tips"><span>💡</span>טיפים</a>
+  <a href="#timer"><span>🕐</span>שעון וניקוי</a>
+  <a href="#qa"><span>❓</span>שאלות</a>
+</nav>
+
+<script>
+const WA_LINK = "https://wa.me/?text=%D7%A9%D7%90%D7%9C%D7%94+%D7%A2%D7%9C+%D7%94%D7%AA%D7%A0%D7%95%D7%A8+Beko+BIM22301X+%D7%A9%D7%9C%D7%99%3A+";
+const FAQ = [
+ {q:"באיזו תוכנית אופים עוגה?",k:["עוגה","עוגות","אפייה","אופה","קינוח","ספוג"],a:"עוגה בתבנית: חימום עליון ותחתון (סטטי), רמה 3, 160°, 25–30 דקות. עוגת ספוג: סטטי רמה 3 על 160° ל-25–35 דקות, או טורבו רמה 2 על 150° ל-30–40 דקות. תבנית אחת בלבד בסטטי."},
+ {q:"מה התוכנית לפיצה?",k:["פיצה"],a:"לפיצה מיועדת תוכנית חימום תחתון (משחימה מתחת). בטבלה הרשמית: חימום עליון ותחתון, רמה 2, 200–220°, 15–20 דקות."},
+ {q:"איך מפשירים מזון קפוא?",k:["הפשרה","קפוא","מקפיא","להפשיר","פרוזן"],a:"תוכנית מאוורר בלבד (סמל פתית שלג) - בלי חום בכלל. המאוורר מפשיר לאט בטמפרטורת החדר. מתאים גם לקירור מאכלים אחרי בישול."},
+ {q:"מה זה תוכנית 3D?",k:["3d","תלת","מימד","תלתממד"],a:"כל הנגדים ביחד: חימום עליון + תחתון + נגד אחורי עם מאוורר. חום אחיד ומהיר מכל הכיוונים, מעולה לצליית עוף/הודו/דג שלם. תבנית אחת בלבד."},
+ {q:"מתי צריך חימום מוקדם?",k:["חימום","מוקדם","לחמם","מחממים"],a:"בטבלת הבישול מומלץ חימום מוקדם לכל המאכלים. בחימום טורבו (מאוורר אחורי) ברוב המקרים לא נדרש. בגריל: חימום מוקדם של 5 דקות."},
+ {q:"מהי רמה 1? איפה לשים את התבנית?",k:["רמה","רמות","גובה","מדף","רשת","מיקום"],a:"רמה 1 היא הרמה התחתונה ביותר ורמה 5 העליונה. הרמה הנכונה תלויה במאכל - ראו את טבלאות הבישול והגריל באתר."},
+ {q:"איך מגרילים דג?",k:["דג","דגים","גריל","מגריל"],a:"גריל מלא על הרשת, רמה 4–5, 250°/מקס, 20–25 דקות. דלת סגורה, חימום מוקדם 5 דקות, והופכים אחרי 2/3 מהזמן."},
+ {q:"אפשר לאפות שתי תבניות ביחד?",k:["שתי","תבניות","יחד","רמות","ביחד","כמה"],a:"רק בתוכנית חימום טורבו (מאוורר אחורי) - היא מיועדת לכמה רמות. בסטטי, בסטטי+טורבו וב-3D: תבנית אחת בלבד. לדוגמה עוגיות ב-2 רמות: רמות 1+3 על 180°."},
+ {q:"איך מנקים את התנור בקיטור?",k:["ניקוי","לנקות","קיטור","מנקים","נקיון","אבנית"],a:"ניקוי קל בקיטור: מוציאים אביזרים, יוצקים 500 מ״ל מים לתבנית ברמה 2, מפעילים חימום תחתון או טורבו על 100° ל-25 דקות, ומנגבים עם ספוג לח. בלי חומרי קרצוף ובלי מנקי קיטור."},
+ {q:"התנור מעשן ומסריח בשימוש הראשון",k:["עשן","ריח","מעשן","ראשון","חדש","מסריח"],a:"תקין לגמרי בפעמים הראשונות. במדריך: להריץ גריל ריק על מקסימום כ-30 דקות עם אוורור חדר. העשן והריח נעלמים אחרי שימוש או שניים."},
+ {q:"איך קובעים זמן בישול שהתנור ייכבה לבד?",k:["טיימר","זמן","כיבוי","לבד","נכבה","לתזמן"],a:"בוחרים תוכנית בידית, לוחצים על P עד סמל ›|, מכוונים זמן עם +/−, מכניסים תבנית ומכוונים חום. בסוף תישמע אזעקה. חשוב: אחרי שמשתיקים, לסובב את שתי הידיות ל-0."},
+ {q:"מה זה מצב Eco?",k:["eco","אקו","חיסכון","חשמל","אנרגיה"],a:"מצב חיסכון: התנור מכבה את הנגדים לפני סוף זמן הבישול ומסיים עם החום הצבור בפנים. מפעילים דרך כפתור P עד סמל eco. עובד רק כשמוגדר זמן בישול."},
+ {q:"איך מפעילים נעילת ילדים?",k:["נעילה","ילדים","מנעול","לנעול","ילד"],a:"לוחצים על P עד סמל המנעול, ואז + להפעלה. ביטול: אותו דבר עם −. הנעילה נשמרת גם אחרי הפסקת חשמל."},
+ {q:"העוגה יוצאת יבשה",k:["יבשה","יבש","עוגה"],a:"מהמדריך: להעלות את הטמפרטורה ב-10° ולקצר את זמן האפייה."},
+ {q:"העוגה נשרפת מלמעלה / כהה מדי",k:["כהה","נשרפת","שחור","מלמעלה","צרובה"],a:"מהמדריך: לשים ברמה נמוכה יותר, להוריד טמפרטורה ולהאריך זמן."},
+ {q:"הבורקס לא משחים מתחת",k:["בורקס","מתחת","תחתית","בצק","עלים"],a:"יותר מדי רוטב בתחתית. מהמדריך: לפזר את התערובת שווה בין השכבות ומלמעלה, ובפעם הבאה לשים רמה אחת נמוך יותר."},
+ {q:"ירקות יוצאים יבשים",k:["ירקות","יבשים","יבש"],a:"מהמדריך: לבשל בסיר עם מכסה במקום תבנית - כלי סגור שומר על הנוזלים. ירקות שלא מתבשלים: להרתיח קודם או להכניס כמו שימורים."},
+ {q:"כמה זמן עוף שלם בתנור?",k:["עוף","שלם","תרנגולת","צלי"],a:"עוף 1.8–2 ק״ג: טורבו או 3D, רמה 2, רבע שעה על 250°/מקס ואז 180–190°, בסך הכל 60–80 דקות. אחרי הבישול 10 דקות מנוחה בתנור."},
+ {q:"כמה זמן הודו?",k:["הודו"],a:"הודו 5.5 ק״ג: טורבו או 3D, רמה 1, 25 דקות על 250°/מקס ואז 180–190°, בסך הכל 150–210 דקות."},
+ {q:"איך צולים בשר? כמה זמן?",k:["בשר","צלי","סטייק","רוסט"],a:"כל ס״מ עובי ≈ 4–5 דקות. בשר עם עצם דורש עוד 15–30 דקות. צלי בקר שלם בטורבו רמה 3: רבע שעה 250°/מקס ואז 180–190°, 100–120 דקות. 10 דקות מנוחה בסוף."},
+ {q:"האם הדלת צריכה להיות סגורה בגריל?",k:["דלת","סגורה","פתוחה","גריל"],a:"כן - תמיד סגורה בזמן גריל. זו אזהרה מפורשת במדריך בגלל סכנת כוויות."},
+ {q:"מה ההבדל בין גריל מלא לגריל+טורבו?",k:["גריל","מלא","טורבו","הבדל"],a:"גריל מלא: חום ישיר וחזק למנות בינוניות-גדולות, על מקסימום. גריל+טורבו: עדין יותר, למנות קטנות-בינוניות, עם כיוון טמפרטורה. בשניהם הופכים את האוכל באמצע."},
+ {q:"איך מכבים את התנור?",k:["לכבות","כיבוי","מכבים"],a:"מסובבים את ידית התוכניות וידית הטמפרטורה ל-0 (למעלה). אחרי שהשתקתם אזעקת סוף בישול - חובה לכבות כך, אחרת התנור חוזר לעבוד."},
+ {q:"איך משנים את השעה בשעון?",k:["שעה","שעון","זמן","קיץ","חורף"],a:"לוחצים על P עד סמל השעון ומכוונים עם +/−. אם לא הוגדרה תוכנית בישול, אי אפשר לכוון את השעה."},
+ {q:"יש טיימר בלי להפעיל את התנור?",k:["שעון","מעורר","טיימר","תזכורת","אזעקה"],a:"כן - שעון מעורר עצמאי (סמל פעמון), עד 23:59. מתאים כתזכורת להפוך בשר באמצע. לא משפיע על פעולת התנור."},
+ {q:"הייתה הפסקת חשמל והתוכנית נעלמה",k:["חשמל","הפסקה","נכבה","אופס"],a:"נורמלי: תוכנית בישול מתבטלת בהפסקת חשמל וצריך לתכנת מחדש. נעילת הילדים דווקא נשמרת."},
+ {q:"טוסט בתנור?",k:["טוסט","לחם","פרוסות"],a:"גריל על הרשת, רמה 4, 250°/מקס, 1–3 דקות. דלת סגורה."},
+ {q:"קציצות בגריל?",k:["קציצות","המבורגר","בורגר"],a:"קציצות בקר (12 יח׳): גריל על הרשת, רמה 4, 250°/מקס, 25–35 דקות. הופכים אחרי 2/3 מהזמן."},
+ {q:"איך אופים לחם?",k:["לחם","לחמים","חלה"],a:"בטבלה הרשמית (Leaven): חימום עליון ותחתון, רמה 2, 200°, 35–45 דקות."},
+ {q:"לזניה?",k:["לזניה","פסטה"],a:"חימום עליון ותחתון, תבנית זכוכית/מתכת על הרשת, רמה 2–3, 200°, 30–40 דקות."},
+ {q:"באיזו תוכנית אופים עוגיות בכמה רמות?",k:["עוגיות","קוקיז","רמות"],a:"טורבו בלבד (לא סטטי). 2 רמות: 1+3 על 180°, 30–40 דקות. 3 רמות: 1+3+5 על 160°, 35–45 דקות."},
+ {q:"איך מחליפים את נורת התנור?",k:["נורה","נורת","אור","מנורה"],a:"מהמדריך: לנתק מהחשמל ולחכות שהתנור יתקרר, לסובב את כיסוי הזכוכית של הנורה ולהחליף. אם הנורה עגולה - ההחלפה מתוארת בעמוד הנורה במדריך המקורי."},
+ {q:"פאי תפוחים?",k:["פאי","תפוחים","אפל"],a:"סטטי רמה 2 על 180° ל-50–60 דקות, או טורבו רמה 2 על 170° לאותו זמן. תבנית עגולה 20 ס״מ על הרשת."},
+ {q:"צלי בקר שלם?",k:["צלי","בקר","רוסטביף"],a:"טורבו, רמה 3, רבע שעה 250°/מקס ואז 180–190°, 100–120 דקות. אחרי הבישול 10 דקות מנוחה בתנור."}
+];
+const SUGGEST = ["באיזו תוכנית אופים עוגה?","מה התוכנית לפיצה?","איך מפשירים?","איך מנקים בקיטור?","אפשר שתי תבניות ביחד?","נעילת ילדים","כמה זמן עוף שלם?","איך מגרילים דג?"];
+function norm(s){return (s||"").toLowerCase().replace(/[\u0591-\u05C7]/g,"").replace(/ך/g,"כ").replace(/ם/g,"מ").replace(/ן/g,"נ").replace(/ף/g,"פ").replace(/ץ/g,"צ").replace(/[\"'׳״.,!?;:()\[\]]/g," ").replace(/\s+/g," ").trim();}
+function score(item, qn){
+  let s=0;
+  for(const k of item.k){ const nk=norm(k); if(qn.includes(nk)) s+=3; }
+  const qw=qn.split(" ").filter(w=>w.length>2);
+  const qtext=norm(item.q)+" "+norm(item.a);
+  for(const w of qw){ if(qtext.includes(w)) s+=1; }
+  return s;
+}
+function ask(){
+  const raw=document.getElementById("q").value;
+  const qn=norm(raw);
+  const box=document.getElementById("qres");
+  if(!qn){box.innerHTML="";return;}
+  const scored=FAQ.map(f=>({f,s:score(f,qn)})).filter(x=>x.s>0).sort((a,b)=>b.s-a.s).slice(0,3);
+  let html="";
+  if(scored.length && scored[0].s>=3){
+    for(const x of scored){
+      html+='<div class="ans"><div class="qm">'+x.f.q+' · <span class="badge b-man">מהמדריך</span></div><p>'+x.f.a+'</p></div>';
+    }
+  } else {
+    html='<div class="esc"><b>לא מצאנו תשובה מספיק טובה בתוכן המדריך.</b><br>אפשר לשלוח את השאלה אלינו בוואטסאפ ונחזור עם תשובה:<br><a href="'+WA_LINK+'" target="_blank" rel="noopener">💬 שליחת השאלה בוואטסאפ</a></div>';
+  }
+  box.innerHTML=html;
+}
+document.getElementById("qbtn").addEventListener("click",ask);
+document.getElementById("q").addEventListener("keydown",e=>{if(e.key==="Enter")ask();});
+const sg=document.getElementById("sugg");
+for(const s of SUGGEST){const b=document.createElement("button");b.textContent=s;b.onclick=()=>{document.getElementById("q").value=s;ask();};sg.appendChild(b);}
+const navLinks=document.querySelectorAll("nav#bnav a");
+const secs=[...document.querySelectorAll("section")];
+window.addEventListener("scroll",()=>{
+  let cur=secs[0].id;
+  for(const s of secs){ if(s.getBoundingClientRect().top<120) cur=s.id; }
+  navLinks.forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#"+cur));
+},{passive:true});
+</script>
+</body>
+</html>
